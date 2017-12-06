@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <title>Moje portfolio Bootstrap</title>
-    
+
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&amp;subset=latin-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700&amp;subset=latin-ext" rel="stylesheet">
-    
+
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -17,7 +17,173 @@
 
 <body>
 
+    <!----------------  Navigation  ------------->
 
+    <nav class="navbar justify-content-end navbar-expand-lg navbar-light fixed-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">Menu</button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav text-right justify-content-end w-100">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about-me">o mnie</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">umiejetności</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">portfolio </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">kontakt</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!----------------- Main section  -------------->
+
+    <div class="container-fluid main-header">
+        <header>
+            <h1>Jan <span>Nowak</span></h1>
+            <h2>Front-End Developer</h2>
+        </header>
+    </div>
+
+    <!--------------- About me --------------->
+
+    <section id="about-me">
+        <div class="container">
+            <h3>O <span>mnie</span></h3>
+            <div class="row">
+                <div class="col-md-6 col-about-me">
+                    <figure>
+                        <img src="img/jan-nowak.jpg" alt="">
+                    </figure>
+                </div>
+                <div class="col-md-6">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis maxime quam aliquam tenetur, perferendis numquam obcaecati ducimus, aut totam vero deserunt eveniet unde natus iste! Odio illo, accusantium alias debitis magni consequuntur quo, aperiam rem ad nobis tempore, molestias recusandae minima!</p>
+                    <p>Iure ex quae eveniet voluptas, necessitatibus, ut illo eos autem architecto, laudantium suscipit aut temporibus sunt? Totam laudantium nemo a tempore libero, molestiae, eius obcaecati ipsum hic dolorem veritatis dolores nisi maiores iste error? Consectetur sequi voluptates atque at totam quod expedita, consequuntur porro. Aperiam minus reiciendis officia tenetur iste, cupiditate ea nam qui perspiciatis dolorum obcaecati.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------------ Skills ----------------->
+
+    <section id="skills">
+        <div class="container text-center">
+            <h3>Moje <span>umiejetności</span></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima odio eius corrupti, veritatis cupiditate adipisci, voluptatem iste rerum magni omnis! Et numquam veniam dolore obcaecati, ipsum id vitae. Suscipit, reprehenderit!</p>
+            <div class="row justify-content-center">
+                <figure>
+                    <img src="icons/html5.png" alt="HTML5">
+                    <figcaption>HTML5</figcaption>
+                </figure>
+                <figure>
+                    <img src="icons/css3.png" alt="CSS#">
+                    <figcaption>CSS3</figcaption>
+                </figure>
+                <figure>
+                    <img src="icons/js.png" alt="JavaScript">
+                    <figcaption>JavaScript</figcaption>
+                </figure>
+                <figure>
+                    <img src="icons/jquery.png" alt="jQuery">
+                    <figcaption>jQuery</figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+    
+    <!----------- Portfolio -------------->
+
+    <section id="portfolio">
+        <div class="container">
+            <h3>Moje <span>portfolio</span></h3>
+            <div class="row text-center">
+                <div class="col-md-6 col-lg-4" id="portfolio-1">
+                    <div class="mask">
+                        <div class="hover-b">
+                            <div class="hover-text">
+                                <h4>Lorem ipsum</h4>
+                                <p>Dolor sit amet, consectetur adipisicing elit. Fuga voluptatum harum, sint ipsam libero, provident officia culpa aliquid sed voluptatem!</p>
+                                <h4>Wykorzystane technologie:</h4>
+                                <p>HTML5, CSS3, RWD, Bootstrap, JavaScript, jQuery</p>
+                                <a href=""><i class="fa fa-link" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" id="portfolio-2">
+                    <div class="mask">
+                        <div class="hover-b">
+                            <div class="hover-text">
+                                <h4>Lorem ipsum</h4>
+                                <p>Dolor sit amet, consectetur adipisicing elit. Fuga voluptatum harum, sint ipsam libero, provident officia culpa aliquid sed voluptatem!</p>
+                                <h4>Wykorzystane technologie:</h4>
+                                <p>HTML5, CSS3, RWD, Bootstrap, JavaScript, jQuery</p>
+                                <a href=""><i class="fa fa-link" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-4" id="portfolio-3">
+                    <div class="mask">
+                        <div class="hover-b">
+                            <div class="hover-text">
+                                <h4>Lorem ipsum</h4>
+                                <p>Dolor sit amet, consectetur adipisicing elit. Fuga voluptatum harum, sint ipsam libero, provident officia culpa aliquid sed voluptatem!</p>
+                                <h4>Wykorzystane technologie:</h4>
+                                <p>HTML5, CSS3, RWD, Bootstrap, JavaScript, jQuery</p>
+                                <a href=""><i class="fa fa-link" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--------------- Coontact ---------------->
+
+    <section id="contact">
+        <div class="container">
+            <h3>Jan <span>Nowak</span></h3>
+            <div class="row">
+                <div class="col-md-6 ">
+                    <address>
+                        ul. Mostowa 6/13<br> 
+                        31-061 Kraków<br><br>
+                        tel. 456 456 333<br>
+                        Email: <a href="mailto:l.badocha@arena108.pl">l.badocha@arena108.pl</a>
+                    </address>
+
+                    <div id="social-media" class="row">
+                        <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <form action="">
+                        <input type="text" name="name" placeholder="Imie i nazwisko"><br>
+                        <input type="email" name="email" placeholder="Email"><br>
+                        <textarea name="wiadomosc" placeholder="Tresc Wiadomosci"></textarea><br>
+                        <input type="submit" value="Wyslij">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------------- Copyright --------------->
+
+    <footer class="copyright">
+        Copyright &#169; Jan Nowak
+    </footer>
+
+    <!----------------  Scripts  ------------>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="js/jquery-3.2.1.min.js"></script>
